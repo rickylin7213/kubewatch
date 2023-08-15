@@ -1,18 +1,3 @@
-## WARNING: Kubewatch is no longer actively maintained by VMware.
-
-VMware has made the difficult decision to stop driving this project and therefore we will no longer actively respond to issues or pull requests. The project will be externally maintained in the following fork: https://github.com/robusta-dev/kubewatch
-
-Thank You.
-
-<p align="center">
-  <img src="./docs/kubewatch-logo.jpeg">
-</p>
-
-
-[![Build Status](https://travis-ci.org/bitnami-labs/kubewatch.svg?branch=master)](https://travis-ci.org/bitnami-labs/kubewatch) [![Go Report Card](https://goreportcard.com/badge/github.com/bitnami-labs/kubewatch)](https://goreportcard.com/report/github.com/bitnami-labs/kubewatch) [![GoDoc](https://godoc.org/github.com/bitnami-labs/kubewatch?status.svg)](https://godoc.org/github.com/bitnami-labs/kubewatch) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/bitnami-labs/kubewatch/blob/master/LICENSE)
-
-**kubewatch** is a Kubernetes watcher that currently publishes notification to available collaboration hubs/notification channels. Run it in your k8s cluster, and you will get event notifications through webhooks.
-
 # Usage
 ```
 $ kubewatch -h
